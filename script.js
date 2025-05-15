@@ -1,4 +1,4 @@
-// Funções de configuração
+/ Funções de configuração
 function salvarConfiguracoes() {
     // Obter valores dos campos
     const apiKeyInput = document.getElementById('api-key').value;
