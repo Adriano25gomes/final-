@@ -1,4 +1,4 @@
-/ Funções de configuração
+// Funções de configuração
 function salvarConfiguracoes() {
     // Obter valores dos campos
     const apiKeyInput = document.getElementById('api-key').value;
@@ -292,7 +292,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Função para abrir abas
-function openTab(evt, tabName) {
     // Esconder todas as abas
     const tabcontent = document.getElementsByClassName("tabcontent");
     for (let i = 0; i < tabcontent.length; i++) {
